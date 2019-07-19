@@ -1,0 +1,14 @@
+body{
+	background-image: url(b.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.container{
+	background-color: rgba(0,0,0,0.7);
+}
+@media screen and (max-width: 425px){
+	table{
+		font-size: 8px;
+		width: 100%;
+	}
+}

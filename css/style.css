@@ -1,0 +1,57 @@
+body{
+	background-image: url(a.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+@media screen and (min-width: 425px){
+	button{
+		color: green;	
+	}
+}
+.container{
+	width: 350px;
+	background: linear-gradient(rgba(63,191,165,0.5),rgba(25,76,66,0.5));
+	background-size:200%;
+}
+input{
+	padding:3px;
+	outline-style: none;
+	font-family: helvantica, sans-serif;
+}
+.input{
+	margin: 0;
+	padding: 0;
+}
+table {
+	margin-top: 5%;
+}
+table, th{
+	color: #fff;
+}
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button{
+	-webkit-appearance:none;
+}
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  width: 280px;
+ 	position: relative;
+}
+.close-button {
+  background-color: red;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  width: 280px;
+  outline-style: none;
+}
+#myForm{
+	display: none;
+}
